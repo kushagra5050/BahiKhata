@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">BahiKhata</string>
+    <!-- Splash Screen -->
+    <!-- Content Description-->
+    <string name="splash_content_desc_logo_im_view">App Logo</string>
+    <string name="splash_content_desc_appname_txt_view">App Title</string>
+    <!-- Text-->
+    <string name="splash_text_appname_txt_view">BahiKhata</string>
+
+    <!-- LogIn Screen -->
+    <!-- Content Description-->
+    <string name="login_content_desc_logo_im_view">App Logo</string>
+    <string name="login_content_desc_remember_me">This is used to save value in cache</string>
+    <string name="login_content_desc_login_btn">Click for Login</string>
+    <string name="login_content_desc_signup_txt_view">Click to create an account</string>
+    <string name="login_content_desc_title_txt_view">This is a Title of App</string>
+    <string name="login_content_desc_forgotpassword_txtView">This is used to reset password</string>
+    <!-- Text-->
+
+    <string name="login_text_signup_txt_view">Don\'t have BahiKhata account? \n REGISTER</string>
+    <string name="login_text_title_txt_view">Welcome back!</string>
+    <string name="login_text_txtView">Login to Bahi Khata </string>
+    <string name="login_text_login_btn">Login</string>
+    <string name="login_text_remember_me">Remember Me</string>
+    <string name="login_text__forgotpassword_txtView">Forgot Password?</string>
+    <!-- Hint-->
+    <string name="login_hint_userid_edit_txt">Userid</string>
+    <string name="login_hint_password_edit_txt">Password</string>
+
+    <!-- Signup Screen -->
+    <!-- Content Description-->
+
+    <string name="signup_content_desc_signup_txt_View">Register</string>
+    <string name="signup_content_desc_signup_btn">Click for Register</string>
+
+    <!-- Text-->
+    <string name="signup_text_signup_txt_View">REGISTER</string>
+    <string name="signup_text_signup_btn">Register</string>
+    <!-- Hint-->
+    <string name="signup_hint_shopname_EditTxt">Shop Name</string>
+    <string name="signup_hint_email_id_EditTxt">Email Id</string>
+    <string name="signup_hint_contact_no_EditTxt">Contact Number</string>
+    <string name="signup_hint_user_id_EditTxt">Userid</string>
+    <string name="signup_hint_password_EditTxt">Password</string>
+    <!--HomeScreen-->
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_change_profile">Change Profile</string>
+    <string name="menu_change_password">Change Password</string>
+
+    <!-- Content Description-->
+    <string name="home_screen_content_desc_home_screen_nav_header_txt_view">It contain First Leter of Shop Name</string>
+    <string name="home_screen_content_desc_home_screen_shopname_nav_header_txt_view">It show the shop name</string>
+    <string name="home_screen_content_desc_home_screen_userid_nav_header_txt_view">It show Userid</string>
+
+    <!-- Text-->
+    <string name="home_screen_text_home_screen_nav_header_txt_view">BK</string>
+    <string name="home_screen_text_home_screen_shopname_nav_header_txt_view">SHOP NAME</string>
+    <string name="home_screen_text_home_screen_userid_nav_header_txt_view">Userid</string>
+
+    <!--DialogForgotPassword-->
+
+    <!--Hint-->
+    <string name="dialog_forgot_password_hint_email_id_EditTxt">Email Id</string>
+    <string name="dialog_forgot_password_hint_contact_no_EditTxt">Contact Number</string>
+    <string name="dialog_forgot_password_hint_user_id_EditTxt">Userid</string>
+    <!--DialogChangeProfile-->
+
+    <!--Hint-->
+    <string name="dialog_change_profile_hint_shopname_EditTxt">Shop Name</string>
+    <string name="dialog_change_profile_hint_email_id_EditTxt">Email Id</string>
+    <string name="dialog_change_profile_hint_contact_no_EditTxt">Contact Number</string>
+    <string name="dialog_change_profile_hint_user_id_EditTxt">Userid</string>
+    <!--DialogAddCustomer-->
+    <!-- Content Description-->
+    <string name="dialog_add_customer_content_desc_imageView_customer">It contain Image</string>
+    <!--Hint-->
+    <string name="dialog_add_customer_hint_name_EditTxt">Name</string>
+    <string name="dialog_add_customer_hint_contact_no_EditTxt">Contact Number</string>
+    <string name="dialog_add_customer_hint_address_EditTxt">Address</string>
+
+    <!--DialogAdd Item-->
+      <!--Hint-->
+    <string name="dialog_add_item_hint_product_name_EditTxt">Product Name</string>
+    <string name="dialog_add_item_hint_product_quantity_EditTxt">Quanity</string>
+    <string name="dialog_add_item_hint_product_unit_EditTxt">Measuring Unit</string>
+    <string name="dialog_add_item_hint_product_price_EditTxt">Price/Unit</string>
+    <string-array name="dialog_add_item_measuring_unit">
+        <item>Kilo Gram(Kg)</item>
+        <item>Liter(L)</item>
+        <item>Dozen</item>
+        <item>Pieces</item>
+        <item>Unit</item>
+    </string-array>
+
+    <!--DialogMatchPassword-->
+
+    <!--Hint-->
+    <string name="dialog_match_password_hint_password_EditTxt">Password</string>
+    <!--DialogChangePassword-->
+
+    <!--Hint-->
+    <string name="dialog_change_password_hint_password_EditTxt">New Password</string>
+    <!--DialogPayAmount-->
+
+    <!--Hint-->
+    <string name="dialog_pay_amount_hint_amount_EditTxt">Amount</string>
+
+    <!--Edit Customer-->
+    <!-- Content Description-->
+    <string name="update_customer_customer_content_desc_imageView_customer">It contain Image</string>
+    <string name="update_customer_customer_content_desc_update_btn">Update Field Data</string>
+    <!--Hint-->
+    <string name="update_customer_hint_name_EditTxt">Name</string>
+    <string name="update_customer_hint_contact_no_EditTxt">Contact Number</string>
+    <string name="update_customer_hint_address_EditTxt">Address</string>
+    <!-- Text-->
+    <string name="update_customer_text_update_btn">Update</string>
+    <!--Row Layout Add Customer-->
+    <!-- Content Description-->
+    <string name="row_layout_add_customer_content_desc_imageView_customer">It contain Image of Customer</string>
+    <string name="row_layout_add_customer_content_desc_imageView_pay">It contain Image of Pay</string>
+    <string name="row_layout_add_customer_content_desc_imageView_edit">It contain Image of Edit</string>
+    <string name="row_layout_add_customer_content_desc_imageView_view">It contain Image of View</string>
+    <string name="row_layout_add_customer_content_desc_userid_txt_view">Show UserID</string>
+    <string name="row_layout_add_customer_content_desc_amount_txt_view">Show Amount</string>
+    <string name="row_layout_add_customer_content_desc_id_txt_view">Show ID</string>
+
+
+    <!--Row Layout Add Item-->
+    <!-- Content Description-->
+    <string name="add_item_content_desc_name_txtview">It show Customer Name</string>
+    <string name="add_item_content_desc_contact_txtview">It show Customer Contact Number</string>
+    <string name="add_item_content_desc_address_txtview">It show Customer Address</string>
+    <string name="add_item_content_desc_price_txtview">It show Total Purchase Price</string>
+    <string name="add_item_content_desc_save_btn">It si used to save purchase detail in table</string>
+    <!-- Text-->
+    <string name="add_item_text_save_btn">Save</string>
+
+    <!--Popup Menu Add Customer-->
+    <!-- Text-->
+    <string name="popup_menu_add_custome_text_edit">Edit</string>
+    <string name="popup_menu_add_custome_text_delete">Delete</string>
+
+    <!--Menu Sort By-->
+    <!-- Text-->
+    <string name="menu_sort_by_text_name">Name</string>
+    <string name="menu_sort_by_text_amount">Amount</string>
+    <!--Menu Save-->
+    <!-- Text-->
+    <string name="menu_save">Save</string>
+
+
+
+</resources>

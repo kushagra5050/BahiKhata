@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF673AB7</color>
+    <color name="colorPrimaryDark">#FF283593</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--Background-->
+    <color name="background_color">#FFFFFF</color>
+    <!--Splash Screen-->
+    <!--Text-->
+    <color name="splash_text_color_txtView">#FF000000</color>
+
+    <!--LogIn Screen-->
+    <!--Text-->
+    <color name="login_text_color_editTxt">#673AB7</color>
+    <color name="login_text_color_txtView">#FF000000</color>
+    <color name="login_text_color_checkbox">#0000FF</color>
+    <color name="login_text_color_txtView_forgot">#0000FF</color>
+    <color name="login_text_color_btn">#FF000000</color>
+    <!--Hint-->
+    <color name="login_hint_color_editTxt">#FF000000</color>
+    <!--Box Stroke-->
+    <color name="login_boxstroke_color_editTxt">#283593</color>
+    <!--Background-->
+    <color name="login_background_before_color_btn">#23000000</color>
+    <color name="login_background_after_color_btn">#FF673AB7</color>
+    <!---->
+    <color name="login_button_pressed_color_btn">#FF673AB7</color>
+    <color name="login_button_focused_color_btn">#283593</color>
+    <color name="login_button_default_color_btn">#23000000</color>
+    <!--Signup Screen-->
+    <!--Text-->
+    <color name="signup_text_color_editTxt">#673AB7</color>
+    <color name="signup_text_color_txtView">#FF000000</color>
+    <color name="signup_text_color_btn">#FF000000</color>
+    <!--Hint-->
+    <color name="signup_hint_color_editTxt">#FF000000</color>
+    <!--Box Stroke-->
+    <color name="signup_boxstroke_color_editTxt">#283593</color>
+    <!--Background-->
+    <color name="signup_background_before_color_btn">#23000000</color>
+    <color name="signup_background_after_color_btn">#FF673AB7</color>
+
+    <!--Home Screen-->
+    <!--Text-->
+    <color name="home_text_color_nav_header_txtView">#FFFFFF</color>
+    <!--Hint-->
+    <color name="home_hint_color_nav_header_editTxt">#FFFFFF</color>
+    <!--Dialog Forgot Password-->
+    <!--Text-->
+    <color name="dialog_forgot_password_text_color_editTxt">#673AB7</color>
+    <!--Hint-->
+    <color name="dialog_forgot_password_hint_color_editTxt">#FF000000</color>
+    <!--Box Stroke-->
+    <color name="dialog_forgot_password_boxstroke_color_editTxt">#283593</color>
+    <!--Add Item Screen-->
+    <!--Hint-->
+    <color name="add_item_hint_color_editTxt">#FF000000</color>
+    <!--Text-->
+    <color name="add_item_text_color_btn">#FFFFFF</color>
+    <!--Background-->
+    <color name="add_item_background_before_color_btn">#23000000</color>
+    <color name="add_item_background_after_color_btn">#673AB7</color>
+
+
+
+    <!--DialogAddCustomer-->
+    <!--Text-->
+    <color name="dialog_add_customer_text_color_editTxt">#673AB7</color>
+    <!--Hint-->
+    <color name="dialog_add_customer_hint_color_editTxt">#FF000000</color>
+    <!--Box Stroke-->
+    <color name="dialog_add_customer_boxstroke_color_editTxt">#283593</color>
+
+    <!--row layout add data-->
+    <!--Text-->
+    <color name="row_layout_add_data_text_color_txtview">#000000</color>
+    <!--Background-->
+    <color name="row_layout_add_data_backgroung_before_color_save_btn">#23000000</color>
+    <color name="row_layout_add_data_backgroung_after_save_btn">#FF673AB7</color>
+
+    <!--DialogAddItem-->
+    <!--Text-->
+    <color name="dialog_add_item_text_color_editTxt">#673AB7</color>
+    <!--Hint-->
+    <color name="dialog_add_item_hint_color_editTxt">#FF000000</color>
+    <!--Box Stroke-->
+    <color name="dialog_add_item_boxstroke_color_editTxt">#283593</color>
+
+    <!--DialogForgotPassword-->
+    <!--Text-->
+    <color name="dialog_match_password_text_color_editTxt">#673AB7</color>
+    <!--Hint-->
+    <color name="dialog_match_password_hint_color_editTxt">#FF000000</color>
+    <!--Box Stroke-->
+    <color name="dialog_match_password_boxstroke_color_editTxt">#283593</color>
+    <!--DialogChangePassword-->
+    <!--Text-->
+    <color name="dialog_change_password_text_color_editTxt">#673AB7</color>
+    <!--Hint-->
+    <color name="dialog_change_password_hint_color_editTxt">#FF000000</color>
+    <!--Box Stroke-->
+    <color name="dialog_change_password_boxstroke_color_editTxt">#283593</color>
+
+    <!--DialogChange Profile-->
+    <!--Text-->
+    <color name="dialog_change_profile_text_color_editTxt">#673AB7</color>
+    <!--Hint-->
+    <color name="dialog_change_profile_hint_color_editTxt">#FF000000</color>
+    <!--Box Stroke-->
+    <color name="dialog_change_profile_boxstroke_color_editTxt">#283593</color>
+    <!--dialog_pay_amount-->
+    <!--Text-->
+    <color name="dialog_pay_amount_text_color_editTxt">#673AB7</color>
+    <!--Hint-->
+    <color name="dialog_pay_amount_hint_color_editTxt">#FF000000</color>
+    <!--Box Stroke-->
+    <color name="dialog_pay_amount_boxstroke_color_editTxt">#283593</color>
+
+    <!--Row Layout Add Customer-->
+    <!--Text-->
+    <color name="row_layout_add_customer_text_color_userid_text_view">#673AB7</color>
+    <color name="row_layout_add_customer_text_color_amount_text_view">#FF000000</color>
+    <color name="row_layout_add_customer_text_color_id_text_view">#000000</color>
+
+
+    <!--Edit Customer-->
+    <!--Text-->
+    <color name="update_customer_text_color_editTxt">#673AB7</color>
+    <!--Hint-->
+    <color name="update_customer_hint_color_editTxt">#FF000000</color>
+    <!--Box Stroke-->
+    <color name="update_customer_boxstroke_color_editTxt">#283593</color>
+    <!--Background-->
+    <color name="update_customer__color_btn">#FF673AB7</color>
+</resources>
