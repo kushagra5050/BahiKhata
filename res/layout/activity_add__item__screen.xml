@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinatorLayout"
+    tools:context=".AddDataScreen">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/add_item_name_txtview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="2dp"
+            android:contentDescription="@string/add_item_content_desc_name_txtview"
+            android:drawableStart="@drawable/user_id"
+            android:fontFamily="serif-monospace"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/add_item_hint_color_editTxt"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/add_item_contact_txtview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="2dp"
+            android:contentDescription="@string/add_item_content_desc_contact_txtview"
+            android:drawableStart="@drawable/phone"
+            android:fontFamily="serif-monospace"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/add_item_hint_color_editTxt"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/add_item_Address_txtview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="2dp"
+            android:contentDescription="@string/add_item_content_desc_address_txtview"
+            android:drawableStart="@drawable/ic_add_location"
+            android:fontFamily="serif-monospace"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/add_item_hint_color_editTxt"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/add_item_total_price_txtview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="8sp"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/add_item_price_txtview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@string/add_item_content_desc_price_txtview"
+                    android:drawableStart="@drawable/ic_rupee"
+                    android:fontFamily="sans-serif-black"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="@color/add_item_hint_color_editTxt"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleView_add_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:padding="2dp"
+            android:scrollbars="vertical|horizontal" />
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="27dp"
+        android:src="@drawable/add"
+        app:backgroundTint="@color/colorPrimaryDark" />
+
+</RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_more"
+        android:title="Sort By"
+        app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_sort_by_name"
+                    android:icon="@drawable/user_id"
+                    android:title="@string/menu_sort_by_text_name" />
+                <item
+                    android:id="@+id/menu_sort_by_amount"
+                    android:icon="@drawable/ic_rupee"
+                    android:title="@string/menu_sort_by_text_amount" />
+            </group>
+        </menu>
+    </item>
+</menu>

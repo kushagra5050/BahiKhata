@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="@string/dialog_add_item_hint_product_name_EditTxt"
+                android:textColorHint="@color/dialog_add_item_hint_color_editTxt"
+                app:boxBackgroundMode="outline"
+                app:boxCollapsedPaddingTop="2dp"
+                app:boxCornerRadiusBottomEnd="5dp"
+                app:boxCornerRadiusBottomStart="5dp"
+                app:boxCornerRadiusTopEnd="5dp"
+                app:boxCornerRadiusTopStart="5dp"
+                app:boxStrokeColor="@color/dialog_add_item_boxstroke_color_editTxt"
+                app:boxStrokeWidth="2dp"
+                app:errorEnabled="true"
+                app:errorTextAppearance="@style/TextAppearance.AppCompat.Small"
+                app:hintAnimationEnabled="true"
+                app:hintEnabled="true"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Small">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/dialog_add_item_product_name_EditTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+                    android:ems="10"
+                    android:fontFamily="serif-monospace"
+                    android:gravity="start|center_vertical"
+                    android:inputType="textPersonName"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:textAlignment="textStart"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/dialog_add_item_text_color_editTxt"
+                    android:textSize="18sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="@string/dialog_add_item_hint_product_quantity_EditTxt"
+                android:textColorHint="@color/dialog_add_item_hint_color_editTxt"
+                app:boxBackgroundMode="outline"
+                app:boxCollapsedPaddingTop="2dp"
+                app:boxCornerRadiusBottomEnd="5dp"
+                app:boxCornerRadiusBottomStart="5dp"
+                app:boxCornerRadiusTopEnd="5dp"
+                app:boxCornerRadiusTopStart="5dp"
+                app:boxStrokeColor="@color/dialog_add_item_boxstroke_color_editTxt"
+                app:boxStrokeWidth="2dp"
+                app:errorEnabled="true"
+                app:errorTextAppearance="@style/TextAppearance.AppCompat.Small"
+                app:hintAnimationEnabled="true"
+                app:hintEnabled="true"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Small">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/dialog_add_item_product_quantity_EditTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+                    android:ems="10"
+                    android:fontFamily="serif-monospace"
+                    android:gravity="start|center_vertical"
+                    android:inputType="number|numberDecimal"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:textAlignment="textStart"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/dialog_add_item_text_color_editTxt"
+                    android:textSize="18sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/dialog_add_item_product_measuring_unit_EditTxt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/textview_background"
+                android:editable="false"
+                android:ems="10"
+                android:hint="@string/dialog_add_item_hint_product_unit_EditTxt"
+                android:fontFamily="serif-monospace"
+                android:gravity="start|center_vertical"
+                android:inputType="textPersonName"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/dialog_add_item_text_color_editTxt"
+                android:textSize="18sp" />
+
+
+
+                <Spinner
+                    android:id="@+id/dialog_add_item_spinner_measuring_unit"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+
+                    android:layout_weight="1"
+                    android:entries="@array/dialog_add_item_measuring_unit" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="@string/dialog_add_item_hint_product_price_EditTxt"
+                android:textColorHint="@color/dialog_add_item_hint_color_editTxt"
+                app:boxBackgroundMode="outline"
+                app:boxCollapsedPaddingTop="2dp"
+                app:boxCornerRadiusBottomEnd="5dp"
+                app:boxCornerRadiusBottomStart="5dp"
+                app:boxCornerRadiusTopEnd="5dp"
+                app:boxCornerRadiusTopStart="5dp"
+                app:boxStrokeColor="@color/dialog_add_item_boxstroke_color_editTxt"
+                app:boxStrokeWidth="2dp"
+                app:errorEnabled="true"
+                app:errorTextAppearance="@style/TextAppearance.AppCompat.Small"
+                app:hintAnimationEnabled="true"
+                app:hintEnabled="true"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Small">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/dialog_add_item_amount_EditTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+                    android:ems="10"
+                    android:fontFamily="serif-monospace"
+                    android:gravity="start|center_vertical"
+                    android:inputType="numberDecimal"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:textAlignment="textStart"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/dialog_add_item_text_color_editTxt"
+                    android:textSize="18sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

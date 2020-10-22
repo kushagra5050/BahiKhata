@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="1dp"
+    >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView_edit_customer"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:background="@drawable/customer"
+                android:contentDescription="@string/update_customer_customer_content_desc_imageView_customer"
+                android:padding="2dp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="@string/update_customer_hint_name_EditTxt"
+                android:textColorHint="@color/update_customer_hint_color_editTxt"
+                app:boxBackgroundMode="outline"
+                app:boxCollapsedPaddingTop="2dp"
+                app:boxCornerRadiusBottomEnd="5dp"
+                app:boxCornerRadiusBottomStart="5dp"
+                app:boxCornerRadiusTopEnd="5dp"
+                app:boxCornerRadiusTopStart="5dp"
+                app:boxStrokeColor="@color/update_customer_boxstroke_color_editTxt"
+                app:boxStrokeWidth="2dp"
+                app:counterEnabled="true"
+                app:counterMaxLength="20"
+                app:counterOverflowTextAppearance="@style/TextAppearance.AppCompat.Small"
+                app:counterTextAppearance="@style/TextAppearance.AppCompat.Small"
+                app:errorEnabled="true"
+                app:errorTextAppearance="@style/TextAppearance.AppCompat.Small"
+                app:hintAnimationEnabled="true"
+                app:hintEnabled="true"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Small">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/update_customer_name_EditTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:drawableStart="@drawable/user_id"
+                    android:ems="10"
+                    android:fontFamily="serif-monospace"
+                    android:gravity="start|center_vertical"
+                    android:inputType="textPersonName"
+                    android:maxLength="20"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:textAlignment="textStart"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/update_customer_text_color_editTxt"
+                    android:textSize="18sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="@string/update_customer_hint_contact_no_EditTxt"
+                android:textColorHint="@color/update_customer_hint_color_editTxt"
+                app:boxBackgroundMode="outline"
+                app:boxCollapsedPaddingTop="2dp"
+                app:boxCornerRadiusBottomEnd="5dp"
+                app:boxCornerRadiusBottomStart="5dp"
+                app:boxCornerRadiusTopEnd="5dp"
+                app:boxCornerRadiusTopStart="5dp"
+                app:boxStrokeColor="@color/update_customer_boxstroke_color_editTxt"
+                app:boxStrokeWidth="2dp"
+                app:counterEnabled="true"
+                app:counterMaxLength="10"
+                app:counterOverflowTextAppearance="@style/TextAppearance.AppCompat.Small"
+                app:counterTextAppearance="@style/TextAppearance.AppCompat.Small"
+                app:errorEnabled="true"
+                app:errorTextAppearance="@style/TextAppearance.AppCompat.Small"
+                app:hintAnimationEnabled="true"
+                app:hintEnabled="true"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Small">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/update_customer_contact_EditTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:drawableStart="@drawable/phone"
+                    android:ems="10"
+                    android:fontFamily="serif-monospace"
+                    android:gravity="start|center_vertical"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:textAlignment="textStart"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/update_customer_text_color_editTxt"
+                    android:textSize="18sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="@string/update_customer_hint_address_EditTxt"
+                android:textColorHint="@color/update_customer_hint_color_editTxt"
+                app:boxBackgroundMode="outline"
+                app:boxCollapsedPaddingTop="2dp"
+                app:boxCornerRadiusBottomEnd="5dp"
+                app:boxCornerRadiusBottomStart="5dp"
+                app:boxCornerRadiusTopEnd="5dp"
+                app:boxCornerRadiusTopStart="5dp"
+                app:boxStrokeColor="@color/update_customer_boxstroke_color_editTxt"
+                app:boxStrokeWidth="2dp"
+                app:counterEnabled="true"
+                app:counterMaxLength="80"
+                app:counterOverflowTextAppearance="@style/TextAppearance.AppCompat.Small"
+                app:counterTextAppearance="@style/TextAppearance.AppCompat.Small"
+                app:errorEnabled="true"
+                app:errorTextAppearance="@style/TextAppearance.AppCompat.Small"
+                app:hintAnimationEnabled="true"
+                app:hintEnabled="true"
+                app:hintTextAppearance="@style/TextAppearance.AppCompat.Small">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/update_customer_address_EditTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:drawableStart="@drawable/ic_add_location"
+                    android:ems="10"
+                    android:fontFamily="serif-monospace"
+                    android:gravity="start|center_vertical"
+                    android:inputType="textPostalAddress"
+                    android:maxLength="80"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="0dp"
+                    android:textAlignment="textStart"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/update_customer_text_color_editTxt"
+                    android:textSize="18sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>

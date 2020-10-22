@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUPScreen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_color"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/signup_signup_txt_View"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edittext_height"
+                android:layout_marginTop="2dp"
+                android:contentDescription="@string/signup_content_desc_signup_txt_View"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:text="@string/signup_text_signup_txt_View"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/signup_text_color_txtView"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@color/background_color"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="@string/signup_hint_shopname_EditTxt"
+                    android:textColorHint="@color/signup_hint_color_editTxt"
+                    app:boxBackgroundMode="outline"
+                    app:boxCollapsedPaddingTop="2dp"
+                    app:boxCornerRadiusBottomEnd="5dp"
+                    app:boxCornerRadiusBottomStart="5dp"
+                    app:boxCornerRadiusTopEnd="5dp"
+                    app:boxCornerRadiusTopStart="5dp"
+                    app:boxStrokeColor="@color/signup_boxstroke_color_editTxt"
+                    app:boxStrokeWidth="2dp"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="50"
+                    app:counterOverflowTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:counterTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:errorEnabled="true"
+                    app:errorTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:hintAnimationEnabled="true"
+                    app:hintEnabled="true"
+                    app:hintTextAppearance="@style/TextAppearance.AppCompat.Small">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/signup_shopname_EditTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:drawableStart="@drawable/shopname"
+                        android:ems="10"
+                        android:fontFamily="serif-monospace"
+                        android:gravity="start|center_vertical"
+                        android:inputType="textPersonName"
+                        android:maxLength="50"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="0dp"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/signup_text_color_editTxt"
+                        android:textSize="18sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="@string/signup_hint_email_id_EditTxt"
+                    android:textColorHint="@color/signup_hint_color_editTxt"
+                    app:boxBackgroundMode="outline"
+                    app:boxCollapsedPaddingTop="2dp"
+                    app:boxCornerRadiusBottomEnd="5dp"
+                    app:boxCornerRadiusBottomStart="5dp"
+                    app:boxCornerRadiusTopEnd="5dp"
+                    app:boxCornerRadiusTopStart="5dp"
+                    app:boxStrokeColor="@color/signup_boxstroke_color_editTxt"
+                    app:boxStrokeWidth="2dp"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="50"
+                    app:counterOverflowTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:counterTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:errorEnabled="true"
+                    app:errorTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:hintAnimationEnabled="true"
+                    app:hintEnabled="true"
+                    app:hintTextAppearance="@style/TextAppearance.AppCompat.Small">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/signup_email_id_EditTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:drawableStart="@drawable/email"
+                        android:ems="10"
+                        android:fontFamily="serif-monospace"
+                        android:gravity="start|center_vertical"
+                        android:inputType="textEmailAddress"
+                        android:maxLength="50"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="0dp"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/signup_text_color_editTxt"
+                        android:textSize="18sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="@string/signup_hint_contact_no_EditTxt"
+                    android:textColorHint="@color/signup_hint_color_editTxt"
+                    app:boxBackgroundMode="outline"
+                    app:boxCollapsedPaddingTop="2dp"
+                    app:boxCornerRadiusBottomEnd="5dp"
+                    app:boxCornerRadiusBottomStart="5dp"
+                    app:boxCornerRadiusTopEnd="5dp"
+                    app:boxCornerRadiusTopStart="5dp"
+                    app:boxStrokeColor="@color/signup_boxstroke_color_editTxt"
+                    app:boxStrokeWidth="2dp"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="10"
+                    app:counterOverflowTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:counterTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:errorEnabled="true"
+                    app:errorTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:hintAnimationEnabled="true"
+                    app:hintEnabled="true"
+                    app:hintTextAppearance="@style/TextAppearance.AppCompat.Small">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/signup_contact_no_EditTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:drawableStart="@drawable/phone"
+                        android:ems="10"
+                        android:fontFamily="serif-monospace"
+                        android:gravity="start|center_vertical"
+                        android:inputType="phone"
+                        android:maxLength="10"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="0dp"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/signup_text_color_editTxt"
+                        android:textSize="18sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="@string/signup_hint_user_id_EditTxt"
+                    android:textColorHint="@color/signup_hint_color_editTxt"
+                    app:boxBackgroundMode="outline"
+                    app:boxCollapsedPaddingTop="2dp"
+                    app:boxCornerRadiusBottomEnd="5dp"
+                    app:boxCornerRadiusBottomStart="5dp"
+                    app:boxCornerRadiusTopEnd="5dp"
+                    app:boxCornerRadiusTopStart="5dp"
+                    app:boxStrokeColor="@color/signup_boxstroke_color_editTxt"
+                    app:boxStrokeWidth="2dp"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="20"
+                    app:counterOverflowTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:counterTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:errorEnabled="true"
+                    app:errorTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:hintAnimationEnabled="true"
+                    app:hintEnabled="true"
+                    app:hintTextAppearance="@style/TextAppearance.AppCompat.Small">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/signup_user_id_EditTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:drawableStart="@drawable/user_id"
+                        android:ems="10"
+                        android:fontFamily="serif-monospace"
+                        android:gravity="start|center_vertical"
+                        android:inputType="textPersonName"
+                        android:maxLength="20"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="0dp"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/signup_text_color_editTxt"
+                        android:textSize="18sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="@string/signup_hint_password_EditTxt"
+                    android:textColorHint="@color/signup_hint_color_editTxt"
+                    app:boxBackgroundMode="outline"
+                    app:boxCollapsedPaddingTop="2dp"
+                    app:boxCornerRadiusBottomEnd="5dp"
+                    app:boxCornerRadiusBottomStart="5dp"
+                    app:boxCornerRadiusTopEnd="5dp"
+                    app:boxCornerRadiusTopStart="5dp"
+                    app:boxStrokeColor="@color/signup_boxstroke_color_editTxt"
+                    app:boxStrokeWidth="2dp"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="20"
+                    app:counterOverflowTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:counterTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:errorEnabled="true"
+                    app:errorTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:hintAnimationEnabled="true"
+                    app:hintEnabled="true"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="@color/colorPrimary"
+                    app:hintTextAppearance="@style/TextAppearance.AppCompat.Small">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/signup_password_EditTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:drawableStart="@drawable/password"
+                        android:ems="10"
+                        android:fontFamily="serif-monospace"
+                        android:gravity="start|center_vertical"
+                        android:inputType="textPassword"
+                        android:maxLength="20"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="0dp"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/signup_text_color_editTxt"
+                        android:textSize="18sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/signup_signup_btn"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/signup_background_before_color_btn"
+                    android:contentDescription="@string/signup_content_desc_signup_btn"
+                    android:enabled="false"
+                    android:fontFamily="serif"
+                    android:text="@string/signup_text_signup_btn"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="@color/signup_text_color_btn"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:typeface="normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
